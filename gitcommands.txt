@@ -12,14 +12,22 @@ Generals Commands
 3. git add . - This is use to add all changes of all the files
 4. git commit -m - This is used to commit with "some message"
 5. git push origin main - To upload Local change to Remote changes.
+// or git push -u origin main (now we just have to write "git push" it will by default understand that the changes will be push in origin main)
+6. git add README.md - (to add an README.md file if not added)
 
 Git Init Commands
-
 init - used to create a new git Repository
+1.git init
+2.git remote add origin <..link..>
+3.git remote -v (to verify remote)
+4.git branch (to check branch)
+5.git branch -M main  (to rename branch as main(here))
+6.git push origin main
 
-git init
-git remote add origin <..link..>
-git remote -v (to verify remote)
-git branch (to check branch)
-git branch -M main  (to rename branch)
-git push origin main
+Branch Commands
+1. git branch (to check the current branch)
+2. git branch -M master (to rename branch as master)
+3. git checkout <branch_name>
+4. git checkout -b <..new branch_name..> (to create new branch)
+5. git branch -d <-branch_name-> (to delete branch) // checkout to different branch before deleting the current branch
+
