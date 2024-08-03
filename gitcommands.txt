@@ -31,3 +31,6 @@ Branch Commands
 4. git checkout -b <..new branch_name..> (to create new branch)
 5. git branch -d <-branch_name-> (to delete branch) // checkout to different branch before deleting the current branch
 
+Merging the Code
+git diff <-branch_name-> (to compare commits, branches, files & more)
+git merge <-branch_name-> (to merge 2 branches)
