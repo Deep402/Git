@@ -1,0 +1,25 @@
+Configure Commands
+1. git config --global user.name "Myname"
+2. git config --global user.email "xyz@gmail.com"
+3. git config --list
+
+Check Hidden files
+ls -a (It shows all the hidden .git files in the Folder)
+
+Generals Commands
+1. git status - use to check the status of any changes made in Repository
+2. git add <filename> - use it after any modificaiton made
+3. git add . - This is use to add all changes of all the files
+4. git commit -m - This is used to commit with "some message"
+5. git push origin main - To upload Local change to Remote changes.
+
+Git Init Commands
+
+init - used to create a new git Repository
+
+git init
+git remote add origin <..link..>
+git remote -v (to verify remote)
+git branch (to check branch)
+git branch -M main  (to rename branch)
+git push origin main
