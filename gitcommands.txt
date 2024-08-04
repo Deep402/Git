@@ -11,6 +11,7 @@ Generals Commands
 2. git add <filename> - use it after any modificaiton made
 3. git add . - This is use to add all changes of all the files
 4. git commit -m - This is used to commit with "some message"
+// git commit -a -m (add and commmit at same time)
 5. git push origin main - To upload Local change to Remote changes.
 // or git push -u origin main (now we just have to write "git push" it will by default understand that the changes will be push in origin main)
 6. git add README.md - (to add an README.md file if not added)
@@ -31,7 +32,13 @@ Branch Commands
 4. git checkout -b <..new branch_name..> (to create new branch)
 5. git branch -d <-branch_name-> (to delete branch) // checkout to different branch before deleting the current branch
 
+
 Merging the Code
 git diff <-branch_name-> (to compare commits, branches, files & more)
 git merge <-branch_name-> (to merge 2 branches)
+
+
+Pull Commands
+git pull origin main
+used to fetch and download content from a remote repo and immediately update the local repo to match that content.
 
