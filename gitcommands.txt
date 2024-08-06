@@ -54,3 +54,4 @@ Undoing changes
 3. Commited changes (for many contents)
     git reset <-commit hash->
     git reset --hard <-commit hash->
+    git
