@@ -1,6 +1,10 @@
 Cloning a repository.
 git clone <HTTPS link of the repository>
 
+Files 
+new directory - mkdir <File_Name>
+new file - type nul > <File_name>
+
 Configure Commands
 1. git config --global user.name "Myname"
 2. git config --global user.email "xyz@gmail.com"
@@ -24,7 +28,7 @@ Generals Commands
 Git Init Commands
 init - used to create a new git Repository
 1.git init
-2.git remote add origin <..link..>
+2.git remote add origin <SSH_link>
 3.git remote -v (to verify remote)
 4.git branch (to check branch)
 5.git branch -M main  (to rename branch as main(here))
