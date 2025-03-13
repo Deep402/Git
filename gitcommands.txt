@@ -1,9 +1,13 @@
+Cloning a repository.
+git clone <HTTPS link of the repository>
+
 Configure Commands
 1. git config --global user.name "Myname"
 2. git config --global user.email "xyz@gmail.com"
 3. git config --list
 
 Check Hidden files
+ls - shows all the files in the Folders
 ls -a (It shows all the hidden .git files in the Folder)
 
 Generals Commands
